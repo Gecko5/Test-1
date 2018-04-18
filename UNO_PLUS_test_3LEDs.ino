@@ -25,7 +25,7 @@ void loop() {
 	digitalWrite(LED_TX,	LOW );
 	delay(TIME_OFF);
 
-//	digitalWrite(HIGH, LED_BUILTIN);	//	To za cholerę nie chce działać
+//	digitalWrite(HIGH, LED_BUILTIN);	//	To za cholerę nie chce działać, bo argumenty są zamienione
 	digitalWrite(LED_BUILTIN, HIGH);
 	delay(TIME_ON);
 	digitalWrite(LED_BUILTIN, LOW );
